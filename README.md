@@ -1,6 +1,6 @@
 # 🤓Docker-Py-ReVanced
 
-A little python script that will help you in building Revanced [apps](#patch-apps).
+A little python script that will help you in building Revanced [apps](#patch-apps) and sharing them anywhere.
 
 **`Note`** - If you are a root user and want magisk module (Extended). Get them [here](https://github.com/nikhilbadyal/revanced-magisk-module)
 
@@ -124,6 +124,9 @@ You can use any of the following methods to build.
 | [TELEGRAM_API_ID](#telegram-support)                     |         Used for telegram Authentication          | None                                                                                                                  |
 | [TELEGRAM_API_HASH](#telegram-support)                   |         Used for telegram Authentication          | None                                                                                                                  |
 | [EXTRA_FILES](#extra-files)                              |    Extra files apk to upload in GitHub upload.    | None                                                                                                                  |
+| [APPRISE_URL](#apprise)                                  |                   Apprise URL .                   | None                                                                                                                  |
+| [APPRISE_NOTIFICATION_TITLE](#apprise)                   |           Apprise Notification Title .            | None                                                                                                                  |
+| [APPRISE_NOTIFICATION_BODY](#apprise)                    |            Apprise Notification Body .            | None                                                                                                                  |
 
 `*` - Can be overridden for individual app.
 ### App Level Config
@@ -207,6 +210,8 @@ You can use any of the following methods to build.
     - [reddit-news](https://m.apkpure.com/relay-for-reddit/reddit.news)
     - [finanz-online](https://apksos.com/app/at.gv.bmf.bmf2go)
     - [tumblr](https://www.apkmirror.com/apk/tumblr-inc/tumblr/)
+    - [fitnesspal](https://www.apkmirror.com/apk/myfitnesspal-inc/calorie-counter-myfitnesspal/)
+    - [facebook](https://www.apkmirror.com/apk/facebook-2/facebook/)
 
     <br>`**` - You can also patch any other app which is **not** supported officially.To do so, you need to provide
    few more inputs to the tool which are mentioned below. These config will override the sources config from the tool.
@@ -291,9 +296,21 @@ You can use any of the following methods to build.
    With the config tool will try to patch YouTube with resources from inotia00 while other global resource will used
    for patching other apps.<br>
    If you have want to provide resource locally in the apks folder. You can specify that by mentioning filename
-   prefixed with `local://`.
-   *Note* - The link provided must be DLs. Unless they are from GitHub.
-   *Note* - Some of the patch source like inotia00 still provides **-** seperated patches while revanced shifted to
+   prefixed with `local://`.<br>
+   *Note* - The link provided must be DLs. Unless they are from GitHub.<br>
+   *Note* - If your patches resource are available on GitHub and you want to select latest resource without excluding
+    pre-release you can add `latest-prerelease` to the URL.
+    Example:
+   ```dotenv
+    YOUTUBE_PATCHES_DL=https://github.com/inotia00/revanced-patches/releases/latest-prerelease
+   ```
+   For above example tool while selecting latest patches will consider pre-releases/beta too.
+    ```dotenv
+    YOUTUBE_PATCHES_DL=https://github.com/inotia00/revanced-patches/releases/latest
+   ```
+   For above example tool while selecting latest patches will exclude any pre-release/beta ie. will consider only
+    stable releases..<br>
+   *Note* - Some of the patch source like inotia00 still provides **-** separated patches while revanced shifted to
    Space formatted patches. Use `SPACE_FORMATTED_PATCHES` to define the type of patches.
 
 8. <a id="global-keystore-file-name"></a>If you don't want to use default keystore. You can provide your own by
@@ -407,3 +424,11 @@ You can use any of the following methods to build.
     once. Add it in `GitHub secrets`.<br>
 17. Sample Envs<br>
     <img src="https://i.imgur.com/FxOtiGs.png" width="600" style="left">
+18. <a id="apprise"></a>[Apprise](https://github.com/caronc/apprise)<br>
+    We also have apprise support to upload built apk anywhere.To use apprise. Add belows envs in `.env` file
+    or in `ENVS` in `GitHub secrets` (Recommended) in the format
+    ```ini
+    APPRISE_URL=tgram://bot-token/chat-id
+    APPRISE_NOTIFICATION_BODY=What a great Body
+    APPRISE_NOTIFICATION_TITLE=What a great title
+    ```
