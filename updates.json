@@ -1,1 +1,434 @@
-{}
+{
+    "youtube": {
+        "app_version": "19.25.39",
+        "integrations_version": "v1.11.1",
+        "patches_version": "v4.10.1",
+        "cli_version": "v4.6.1",
+        "patches_json_version": "v4.10.1",
+        "ms_epoch_since_patched": 1720345254043,
+        "date_patched": "2024-07-07 09:40:54.043175+05:30",
+        "app_dump": {
+            "app_name": "youtube",
+            "app_version": "19.25.39",
+            "experiment": false,
+            "cli_dl": "https://github.com/inotia00/revanced-cli",
+            "patches_dl": "https://github.com/inotia00/revanced-patches",
+            "integrations_dl": "https://github.com/inotia00/revanced-integrations",
+            "patches_json_dl": "https://github.com/inotia00/revanced-patches",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "9c384aebb3e559204327e7e650ce3a6226477f40c4eb18a0e3b6057e4b9961f7.jar",
+                    "version": "v4.6.1"
+                },
+                "integrations": {
+                    "file_name": "59e3a076c6208ad48e87c3ae2aa1e1b41fcc0dcb1084bfa181b2cea4bce92197.apk",
+                    "version": "v1.11.1"
+                },
+                "patches": {
+                    "file_name": "0e979e7b78e98dd17d216d7769208bc165e1f961a6b09ccbe71744fcdc787f0b.jar",
+                    "version": "v4.10.1"
+                },
+                "patches_json": {
+                    "file_name": "1e720cc130c8d2046be46f0a5912dd5ec0695faac6864c40e46940ee71a70c63.json",
+                    "version": "v4.10.1"
+                }
+            },
+            "no_of_patches": 56,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6570805&key=3f25dd50cd9e4a765e65fb36a3e8a3a7a1c0bff2&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "space_formatted": false
+        }
+    },
+    "youtube_music": {
+        "app_version": "7.08.52",
+        "integrations_version": "v1.11.1",
+        "patches_version": "v4.10.1",
+        "cli_version": "v4.6.1",
+        "patches_json_version": "v4.10.1",
+        "ms_epoch_since_patched": 1720345313222,
+        "date_patched": "2024-07-07 09:41:53.221729+05:30",
+        "app_dump": {
+            "app_name": "youtube_music",
+            "app_version": "7.08.52",
+            "experiment": false,
+            "cli_dl": "https://github.com/inotia00/revanced-cli",
+            "patches_dl": "https://github.com/inotia00/revanced-patches",
+            "integrations_dl": "https://github.com/inotia00/revanced-integrations",
+            "patches_json_dl": "https://github.com/inotia00/revanced-patches",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "9c384aebb3e559204327e7e650ce3a6226477f40c4eb18a0e3b6057e4b9961f7.jar",
+                    "version": "v4.6.1"
+                },
+                "integrations": {
+                    "file_name": "59e3a076c6208ad48e87c3ae2aa1e1b41fcc0dcb1084bfa181b2cea4bce92197.apk",
+                    "version": "v1.11.1"
+                },
+                "patches": {
+                    "file_name": "0e979e7b78e98dd17d216d7769208bc165e1f961a6b09ccbe71744fcdc787f0b.jar",
+                    "version": "v4.10.1"
+                },
+                "patches_json": {
+                    "file_name": "1e720cc130c8d2046be46f0a5912dd5ec0695faac6864c40e46940ee71a70c63.json",
+                    "version": "v4.10.1"
+                }
+            },
+            "no_of_patches": 34,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube_music.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6565578&key=2a63915e1f07f41846cabeb0fff3ae96981ce086&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube-music/",
+            "package_name": "com.google.android.apps.youtube.music",
+            "old_key": true,
+            "space_formatted": false
+        }
+    },
+    "messenger": {
+        "app_version": "latest",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720345342518,
+        "date_patched": "2024-07-07 09:42:22.517700+05:30",
+        "app_dump": {
+            "app_name": "messenger",
+            "app_version": "latest",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 4,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "messenger.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/yZ7RcJsELD4DFHTt0r3eMv9G4WZU_-M-ku05ecyMSgrU13mXo-Q3abKfEmWUVOV7rRSNMAJZuZ_nVb2-QsPGyKyTI2EUoteVbQGWzM0jldLjFlcMbxOSEEGJSAkr0keH/vr5bnTsyywtkcOAbAy87BeEpD1yyIexqzAldWXFqaHdxVOE8VKH9XlPRG4rxWE9-7V8p95NaL3yClbI9Mzy1W3MYjBuYZr8cpvDgPwdEfO5syAi8ZaFEkRGrDbvmRTiL/a8_qfTL5mF46xUe3KDvBllBbheoHONb7TLjOYkCIo6VQCBQ28SPTXM6VsQIwT_rJViW8NLdZEu603BffSUD_sDzoTpPlf17i2QXZtB_CyJ4=/",
+            "download_source": "https://facebook-messenger.en.uptodown.com/android",
+            "package_name": "com.facebook.orca",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "facebook": {
+        "app_version": "441.0.0.0.93",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720345373358,
+        "date_patched": "2024-07-07 09:42:53.358492+05:30",
+        "app_dump": {
+            "app_name": "facebook",
+            "app_version": "441.0.0.0.93",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "facebook.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/oBpWUq5dOZ5T18obUxQIgdGSLzicrU4W74a5awwqBFMGw_C-iQcAyKDCzx8lF9mTVq-myEsTJqnnkiT3wv4ePmQIoXO7KmOH5vzLBDEGclHwuzK0gZxhw-_eFDncQ7AQ/qk_vaSzAjyrOtEF0vOn3ptbw4JD_SSPiTVeXossQepXo1vSWyghUVYuO56Fx0IdwugZ1VONshmrmQlHqZcZsS5E2g-r2TzpGO__OHEZIhzfldhyhEd5j3ojG_YvQlRio/_bRXqncCj6XTGMdrsVZQUvEnLbLXd3IOEFY52Qoj9jDcnLR5ZX2oPoVruOVdusA6DIR2GLcq8qSfMelBWpVBBg==/",
+            "download_source": "https://facebook.en.uptodown.com/android",
+            "package_name": "com.facebook.katana",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "tiktok": {
+        "app_version": "32.5.3",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720345411337,
+        "date_patched": "2024-07-07 09:43:31.336641+05:30",
+        "app_dump": {
+            "app_name": "tiktok",
+            "app_version": "32.5.3",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 9,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "tiktok.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=5569781&key=a64f5dbb063b9371acd81b027e5cbaffa1a26822&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/",
+            "package_name": "com.ss.android.ugc.trill",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "spotify": {
+        "app_version": "latest",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720345472628,
+        "date_patched": "2024-07-07 09:44:32.628315+05:30",
+        "app_dump": {
+            "app_name": "spotify",
+            "app_version": "latest",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 2,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "spotify.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/oBpWUq5dOZ5T18obUxQIgdGSLzicrU4W74a5awwqBFMCBIu3-XG1SWpYHMz9_0WBqryHWM4WQ_mtbEqVUfPDEeB7F8sP2NocjqSVGIz_lK7UmP1kd-6ydl9up-VRR_R-/tFA3slBmGeBf6lsS6R8EYaJdlSxYB5JFYC9u9uS2nd-_CJEGZPft4doG6Oi0fBNZNkbik_IdLgdnNcgzNyCnNzNy-p9xO8RVk8j7mVGe8eJUf4ugvjdY9Iy_Vpq2tgCF/mc6dHRi9CSmD8ZZGjRDxVv8gkHnWpJT75P0LDja1WNEyoVc8hrq22qcA6W14dUZOI1-18fWUytFbwSMU8M_P8A==/",
+            "download_source": "https://spotify.en.uptodown.com/android",
+            "package_name": "com.spotify.music",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "instagram": {
+        "app_version": "338-0-0-31-95-373910746",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720345516234,
+        "date_patched": "2024-07-07 09:45:16.234024+05:30",
+        "app_dump": {
+            "app_name": "instagram",
+            "app_version": "338-0-0-31-95-373910746",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "instagram.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6590523&key=817ac82ba8ca9534ae63ed17912cbb4b75bdeb8e",
+            "download_source": "https://www.apkmirror.com/apk/instagram/instagram-instagram/",
+            "package_name": "com.instagram.android",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "lightroom": {
+        "app_version": "9-4-1-710904100",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720345553267,
+        "date_patched": "2024-07-07 09:45:53.267087+05:30",
+        "app_dump": {
+            "app_name": "lightroom",
+            "app_version": "9-4-1-710904100",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 2,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "lightroom.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6550254&key=f67cb2d8289524d554a17da92b7fd0e9430a351f",
+            "download_source": "https://www.apkmirror.com/apk/adobe/lightroom/",
+            "package_name": "com.adobe.lrmobile",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "duolingo": {
+        "app_version": "5-158-3-1895",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1720349144702,
+        "date_patched": "2024-07-07 10:45:44.702068+05:30",
+        "app_dump": {
+            "app_name": "duolingo",
+            "app_version": "5-158-3-1895",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "duolingo.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6575246&key=c1cfda65e0aa877656759b6aae6278c58e782514&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/",
+            "package_name": "com.duolingo",
+            "old_key": true,
+            "space_formatted": true
+        }
+    }
+}
